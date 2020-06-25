@@ -8,12 +8,11 @@ var functions={
 	"/eval":"uneval",
 	"/aaencode":"aadecode",
 	"/jjencode":"jjdecode",
-	"/jsfuck":"decjsf",
 	"/sojsonv4":"decsojson4",
 	"/jsobfuscator":"obdec_default",
 	"/list":"dec_list",
 	"/auto":"autoscan"
-},loads=["./fun/dec.js","./fun/jsfuck.js","./fun/base64.js"],data=JSON.parse(String(fs.readFileSync("config.json","utf-8")));
+},loads=["./fun/dec.js","./fun/base64.js"],data=JSON.parse(String(fs.readFileSync("config.json","utf-8")));
 for(var i in loads){
 	eval(fs.readFileSync(loads[i],"utf-8"))
 }
