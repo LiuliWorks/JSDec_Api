@@ -30,3 +30,13 @@ node app.js
 ~~~
 http://127.0.0.1/sojsonp
 ~~~
+## 官方Api
+>官方的，安全无后门注入～
+
+~~~
+http://cdn.liulihaocai.tk:1234
+~~~
+
+请勿滥用，恶意使用
+
+使用方法与上方相同
